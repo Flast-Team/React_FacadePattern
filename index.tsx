@@ -1,6 +1,6 @@
 import axios from "axios";
 import { FC, useCallback, useEffect, useState } from "react";
-import { useFacadeUserAPI } from "./hooks/use-facade-user-api";
+import { useFacadeUserAPI } from "./use-facade-user-api";
 
 export const UserTable = (props: any) => {
     console.log(props.users, props.onDelete);
